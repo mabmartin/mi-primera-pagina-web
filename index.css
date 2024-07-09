@@ -40,30 +40,37 @@ section{
     padding: 20px 0;
     }
 
-    section h3, section p, section ul{
-        text-align: center;
+    section p, section ul{
+        text-align:right;
         padding: 16px 0;
     
     }
     section ul li{
         padding: 10px;
     }
-    .contenedor{
+    #servicio-financiero{
         display: flex;
         flex-direction: row-reverse;
-        margin: 100px;
-        justify-content: flex-start;
-        align-items: stretch;
+        margin: 10px;
+        justify-content:center;
+        padding: 10px;
+    
+        
+   
+
+    .texto, p, h3{
+        color: blue;
+        padding: 10px 135px;
+        margin: 5opx;
+        text-align: initial;
+         
     }
-    div p{
-        padding: 13px;
+    
     }
-    .texto{
-        margin-right: 100px;
-        padding:  0 100px;
-    }
+    
     .servicio-financiero{
-        width: 35vw;
+        width: auto;
+        margin-bottom: 0px;
     }
     .trabajadores{
         width: 100vw;
@@ -113,6 +120,17 @@ section{
     color: red;
     padding: 0 250px;
    }
+   .servicios p{
+
+    text-align: center;
+    margin-top: 20px;
+    
+   }
+   .servicios ul{
+
+   }
+  
+
     
 
     
