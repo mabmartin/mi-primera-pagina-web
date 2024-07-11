@@ -44,19 +44,53 @@ nav ul li a:hover{
     color: black;
     border-radius: 10px;
 }
-.logo{ width: 7%;
+/* .logo{ width: 7%;
+} */
+.inicio{
+    
+    background: url(./monaco-4563055_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vw; 
+   
+   }
+.parrafo-inicio p{
+    text-align: justify;
+    font-size: 30px;
+    padding-left: 20vw;
+    padding-top: 50px;
+    color: white;
+    padding: 10px;
+}
+.parrafo-inicio{
+    padding:130px 200px;
+}
+.pie-inicio{
+   
+    font-size: 25px;
+    color: red;
+    padding: 35px;
+    font-size: 25px;
+    padding-left: 215px;
 }
 
 
-.contenedor{
-        display: flex;
-        color: rgb(24, 24, 34);
-        padding:  50px 120px 50px 50px;
+
+.conteiner{
+        
+        background-color:rgb(63, 62, 62);
+        background-size: cover;
+        height: 5vw;
         
     }
+    .conteiner h2{
+        text-align: center;
+        padding: 22px;
+    }
     .textos{
-        padding: 20px;
-       ;
+        padding:50px  500px 50px 400px;
+       
     }
 h3{
     padding: 0px 15px 15px 15px;
