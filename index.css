@@ -36,19 +36,26 @@ main {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
 }
 nav ul li a {
   color: rgb(137, 42, 137);
   text-decoration: none;
-  padding: 5px 50px;
+  /* padding: 5px 50px; */
   margin: 80px;
+  padding: 10px;
 }
 nav ul li a:hover {
   background: white;
   color: black;
   border-radius: 10px;
+  padding: 5px;
+}
+nav ul li{
+  padding: 10px;
 }
 /* .logo{ width: 7%;
 } */
@@ -57,7 +64,7 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 30vw;
+  height: 100%;
 }
 .parrafo-inicio p {
   text-align: justify;
@@ -68,31 +75,34 @@ nav ul li a:hover {
   padding: 10px;
 }
 .parrafo-inicio {
-  padding: 130px 200px;
+  padding: 0px 74px;
+  margin: 0px 29px;
 }
 .pie-inicio {
-  font-size: 25px;
-  color: red;
-  padding: 35px;
-  font-size: 25px;
-  padding-left: 215px;
+  color:white;
+    padding: 0px;
+    font-size: 25px;
+    padding-left: 32px;
 }
+
 
 .conteiner {
   background-color: rgb(63, 62, 62);
-  background-size: cover;
-  height: 5vw;
+    background-size: cover;
+    height: 19vw;
 }
 .conteiner h2 {
   text-align: center;
   padding: 22px;
 }
 .textos {
-  padding: 50px 400px 50px 400px;
+  /* padding: 50px 400px 50px 400px; */
   text-align: justify;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin: 10px;
 }
 .nosotros {
   width: 100%;
@@ -102,43 +112,52 @@ nav ul li a:hover {
 } */
 
 .gráfico {
-  width: 45vw;
-  
+  width: 90vw;
   padding: 15px;
 }
 .container2 {
   background-color: rgb(63, 62, 62);
   background-size: cover;
-  height: 5vw;
+  height: 19vw;
 }
 
 .acerca-de h2 {
   text-align: center;
-  padding: 22px;
+  padding: 5px;
   
 }
 .texto-main{
-    padding:  30px 350px;
+    margin: 10px;
 }
 p{
     font-size: 20px;
-    text-indent: 4em;
+    /* text-indent: 1em; */
+}
+span{
+  color: blue;
 }
 form {
   display: flex;
   flex-direction: column;
-  width: 500px;
-  margin: 0 auto;
+  width: 280px;
+  margin: 18px 40px;
+  padding: 0px;
 }
 form label {
   margin-bottom: 10px;
 }
-form input,
-form textarea {
+form input {
   margin-bottom: 16px;
   padding: 8px;
   border: 1px solid grey;
   border-radius: 5px;
+}
+textarea{
+  margin-bottom: 16px;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  
 }
 form button {
   padding: 12px;
@@ -161,11 +180,32 @@ form button:hover {
 .button-delete:hover {
   background-color: rgb(111, 9, 16);
 }
-.acerca-de {
+h3 {text-align: center;}
+
+.servicios-conteiner {
+  background-color: rgb(63, 62, 62);
+    background-size: cover;
+    height: 19vw;
 }
+.servicios-conteiner h2{
+  text-align: center;
+  padding: 22px;
+}
+.servicios{
+  width: 100%;
+}
+.card-container{
+  display: flex;
+}
+
+
 .servicios p {
   text-align: center;
   margin-top: 20px;
 }
-.servicios ul {
+.card{
+  margin: 15px 36px;
+  display: flex;
 }
+
+

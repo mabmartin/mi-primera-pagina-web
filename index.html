@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documents</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,19 +22,15 @@
     <header>
         <div class="nav-container">
             <h1>BRUSBIT</h1>
-            <NAv>
-                <!-- <img class="logo" src="./logo.png" alt="logo"> -->
-                <h2>
-                    <UL>
-                        <Li> <a href="#">Inicio</a></LI>
-                        <li> <a href="#">Acerca de</a></li>
-                        <li> <a href="#">Servicios</a></li>
-                        <li> <a href="#">Contacto</a></li>
-                </h2>
+            <nav>
 
-                </UL>
-
-            </NAv>
+                <ul>
+                    <Li> <a href="#">Inicio</a></LI>
+                    <li> <a href="#">Acerca de</a></li>
+                    <li> <a href="#">Servicios</a></li>
+                    <li> <a href="#">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
@@ -48,7 +45,6 @@
             </div>
 
             <div class="conteiner">
-                <!-- <img class="img" src="./edificio.jpg" alt="edificio"> -->
                 <h2>SERVICIOS FINANCIERO</h2>
             </div>
             <div class="textos">
@@ -126,35 +122,43 @@
                 Ellinghams emplean para ayudar a gestionar las carteras de manera eficaz. A continuación, se indican
                 algunas de ellas:<br>
 
-                Diversificación : esta estrategia implica invertir en una variedad de activos para reducir el riesgo
+                <span> Diversificación :</span> esta estrategia implica invertir en una variedad de activos para reducir
+                el riesgo
                 general. Al distribuir las inversiones entre diferentes clases de activos, sectores y regiones, los
                 inversores pueden reducir potencialmente el impacto de las fluctuaciones del mercado en su cartera.<br>
 
-                Asignación de activos : esta estrategia implica determinar la combinación óptima de activos en una
+                <span> Asignación de activos :</span> esta estrategia implica determinar la combinación óptima de
+                activos en una
                 cartera en función de la tolerancia al riesgo del inversor, sus objetivos de inversión y su horizonte
                 temporal. Una cartera bien equilibrada normalmente incluirá una combinación de acciones, bonos y otras
                 inversiones, y la proporción de cada clase de activo dependerá de los objetivos y la tolerancia al
                 riesgo del inversor.<br>
 
-                Reequilibrio : esta estrategia implica ajustar periódicamente la combinación de activos en una cartera
+                <span>Reequilibrio :</span> esta estrategia implica ajustar periódicamente la combinación de activos en
+                una cartera
                 para mantener la asignación de activos deseada. A medida que los valores de los activos cambian con el
                 tiempo, la cartera puede desequilibrarse, lo que puede aumentar el riesgo. El reequilibrio puede ayudar
                 a garantizar que la cartera se mantenga en línea con los objetivos del inversor.<br>
 
-                Gestión de riesgos : esta estrategia implica gestionar el riesgo mediante la selección de inversiones
+                <span>Gestión de riesgos :</span> esta estrategia implica gestionar el riesgo mediante la selección de
+                inversiones
                 que se ajusten a la tolerancia al riesgo y los objetivos de inversión del inversor. Los asesores tienen
                 en cuenta el horizonte temporal del cliente, sus objetivos de inversión y otros factores al seleccionar
                 inversiones para asegurarse de que se sientan cómodos con el nivel de riesgo de su cartera.<br>
 
-                Gestión activa : esta estrategia implica tomar decisiones de inversión estratégicas en función de las
+                <span>Gestión activa :</span> esta estrategia implica tomar decisiones de inversión estratégicas en
+                función de las
                 condiciones del mercado, las tendencias económicas y otros factores. La gestión activa puede ayudar a
-                los inversores a aprovechar las oportunidades del mercado y generar potencialmente mayores rendimientos.<br>
+                los inversores a aprovechar las oportunidades del mercado y generar potencialmente mayores
+                rendimientos.<br>
 
-                Gestión pasiva : esta estrategia implica invertir en fondos indexados o fondos cotizados en bolsa (ETF)
+                <span>Gestión pasiva :</span> esta estrategia implica invertir en fondos indexados o fondos cotizados en
+                bolsa (ETF)
                 que siguen un índice de mercado, como el S&P 500. La gestión pasiva puede ofrecer tarifas más bajas y
                 potencialmente generar retornos sólidos a largo plazo.<br>
 
-                Seguimiento y revisión : Por último, la gestión de carteras implica el seguimiento y la revisión
+                <span>Seguimiento y revisión :</span> Por último, la gestión de carteras implica el seguimiento y la
+                revisión
                 periódicos de la cartera para garantizar que se mantenga en línea con los objetivos y la tolerancia al
                 riesgo del inversor. Los asesores de inversiones y los clientes deben revisar su cartera periódicamente
                 y realizar los ajustes necesarios.<br>
@@ -165,21 +169,50 @@
 
         </section>
         <section>
-            <div class="servicios">
-                <h3>Servicios</h3>
-                <ul>
-                    <li>Inversiones</li>
-                    <li>Prestamos</li>
-                    <li>Exchanges</li>
-                    <li>Cursos</li>
-                </ul>
+            <img class="servicios" src="./servicios.png" alt="gente leyendo un grafico de barras">
+            <div class="servicios-conteiner">
+                <h2>Servicios</h2>
             </div>
+            <div class="card-container">
+                <div class="card" style="width: 18rem;">
+                    <img src="./planificacion-financiera.jpg" class="card-img-planificacion" alt="dos adultos mayores planificando jubilación">
+                    <div class="card-body">
+                      <h5 class="card-title">Inversión y Planificación Financiera</h5>
+                      <!-- <p class="card-text">Los asesores financieros de BRUSBIT están comprometidos a desarrollar un enfoque de gestión de activos estructurado para su vida financiera.</p> -->
+                      <a href="#" class="btn btn-primary">Quiero saber más...</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./patrimonio.jpg" class="card-img-patrimonio" alt="casa entre dos manos">
+                    <div class="card-body">
+                      <h5 class="card-title">Patrimonio</h5>
+                      <!-- <p class="card-text">Los asesores financieros de BRUSBIT están comprometidos a ayudar a nuestros clientes, personas como usted, a desarrollar un enfoque de gestión de activos estructurado para su vida financiera.</p> -->
+                      <a href="#" class="btn btn-primary">Quiero saber más...</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./asesoria-empresarial.jpg" class="card-img-asesoria" alt="asesor financiero hamblando con empresarios">
+                    <div class="card-body">
+                      <h5 class="card-title">Asesorías Empresariales</h5>
+                      <!-- <p class="card-text">Permita que BRUSBIT lo ayude a establecer un plan sólido para brindarle tranquilidad. Nuestros asesores financieros le garantizan superar cualquier inquietud y proteger su futuro.</p> -->
+                      <a href="#" class="btn btn-primary">Quiero saber más...</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./creditos.jpg" class="card-img-creditos" alt="personas estrechandose la mano">
+                    <div class="card-body">
+                      <h5 class="card-title">Programa De Créditos</h5>
+                      <!-- <p class="card-text">Ya sea que esté comprando una casa por primera vez, esté renovando su casa, esté refinanciando o esté comprando una propiedad adicional, BRUSBIT ha establecido una relación con Banco Galicia, para ofrecerle una variedad de programas de préstamos hipotecarios.</p> -->
+                      <a href="#" class="btn btn-primary">Quiero saber más...</a>
+                    </div>
+                </div>
+            </div>     
         </section>
         <section>
             <h3>Contacto</h3>
             <form>
                 <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="nombre">
 
                 <label for="email">Email</label>
                 <input type="email" name="email">
