@@ -10,7 +10,7 @@ header {
   background: linear-gradient(
     180deg,
     rgba(201, 179, 228, 1) 8%,
-    rgba(17, 6, 23, 0.9450630594034489) 68%
+    rgba(111, 79, 129, 0.945) 68%
   );
   color: black;
   padding: 100px 0;
@@ -19,6 +19,11 @@ header h1 {
   text-align: center;
   padding: 10px;
   font-family: aleo;
+}
+.logo-head{
+  width: 60px;
+  height: auto;
+  position: relative;
 }
 header {
   text-align: center;
@@ -60,7 +65,7 @@ nav ul li{
 /* .logo{ width: 7%;
 } */
 .inicio {
-  background: url(./monaco-4563055_1280.jpg);
+  background: url(./img/monaco-4563055_1280.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -106,6 +111,7 @@ nav ul li{
 }
 .nosotros {
   width: 100%;
+  height: 160px;
 }
 /* h3 {
   padding: 0px 15px 15px 15px;
@@ -128,6 +134,7 @@ nav ul li{
 }
 .texto-main{
     margin: 10px;
+    text-align: justify;
 }
 p{
     font-size: 20px;
@@ -135,6 +142,10 @@ p{
 }
 span{
   color: blue;
+}
+.servicios{
+  width: 100%;
+  height: 160px;
 }
 form {
   display: flex;
@@ -162,15 +173,13 @@ textarea{
 form button {
   padding: 12px;
   border: none;
-  background-color: blue;
-  color: black;
   cursor: pointer;
   margin: 5px;
   border-radius: 5px;
   width: 100px;
 }
 form button:hover {
-  background-color: cadetblue;
+  background-color:rgb(137, 42, 137);
 }
 .button-container {
   display: flex;
@@ -178,9 +187,9 @@ form button:hover {
   justify-content: center;
 }
 .button-delete:hover {
-  background-color: rgb(111, 9, 16);
+  background-color: rgb(137, 17, 25);
 }
-h3 {text-align: center;}
+.card-title {text-align: center;}
 
 .servicios-conteiner {
   background-color: rgb(63, 62, 62);
@@ -196,7 +205,7 @@ h3 {text-align: center;}
     height: 25%;
     display: flex;
     max-width: 1100px;
-    /* flex-grow: 1; */
+    
     flex-direction: row;
     flex-wrap: wrap;
   
@@ -245,7 +254,7 @@ img{
 .boton{
   text-decoration: none;
   display: inline-block;
-  /* margin-top: 10px; */
+  
   padding: 10px;
   color: black;
   border: 1px solid black;
@@ -256,10 +265,14 @@ img{
  margin-bottom: 10px;
 }
 .boton:hover{
-  background: violet;
+  background: rgb(137, 42, 137);
   color: white;
   align-items: center;
   
+}
+.contacto{
+  width: 100%;
+    height: 160px;
 }
 .contacto-container{
   background-color: rgb(63, 62, 62);
@@ -269,4 +282,47 @@ img{
 .contacto-container h2{
   text-align: center;
   padding: 22px;
+}
+.formulario{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+.formulario p{
+  padding: 7px;
+  text-align: center;
+}
+.maps{
+  margin: 20px 20px 0px 20px;
+  box-sizing: content-box;
+}
+footer{
+  background-color: rgb(71, 71, 71);
+  color: black;
+
+}
+.logo-footer{
+  width: 10vw;
+  height: auto;
+  margin-top: 5px;
+}
+i{
+  padding: 5px;
+}
+.container-footer{
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.home-footer{
+  margin-top: 5px;
+}
+.siguenos{
+  margin-top: 5px;
+  text-align: center;
+}
+.creado{
+  text-align: center;
 }
