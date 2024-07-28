@@ -4,12 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(12, 11, 12);
+  /* background-color: rgb(12, 11, 12); */
   font-family: roboto + slab;
 
 }
 a{
   text-decoration: none;
+  color: black;
+  font-size: 15px;
 }
 ol,ul{
   list-style: none;
@@ -32,7 +34,7 @@ ol,ul{
 
 }
 .menu_hamburguesa:checked + .ul_links{
-  height: 80vh;
+  height: 100vh;
   
 }
 .nombre-logo {
@@ -72,7 +74,7 @@ nav ul li a:hover {
   background: linear-gradient(
     180deg,
     rgba(201, 179, 228, 1) 8%,
-    rgba(111, 79, 129, 0.945) 68%
+    rgb(111, 79, 129) 68%
   );;
   position: absolute;
   top: 80px;
@@ -130,7 +132,7 @@ main {
   background: linear-gradient(
     0deg,
     rgba(201, 179, 228, 1) 4%,
-    rgba(134, 132, 135, 0.9450630594034489) 80%
+    rgb(230, 228, 231) 80%
   );
 }
 /* 
@@ -191,10 +193,12 @@ nav ul li{
   background-color: rgb(63, 62, 62);
     background-size: cover;
     height: 19vw;
+  
 }
 .conteiner h2 {
   text-align: center;
   padding: 22px;
+  /* margin-top: 3px; */
 }
 .textos {
   /* padding: 50px 400px 50px 400px; */
@@ -203,24 +207,30 @@ nav ul li{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 .nosotros {
   width: 100%;
   height: 160px;
+  margin-bottom: -4px;
+  
+
 }
 /* h3 {
   padding: 0px 15px 15px 15px;
 } */
 
 .gráfico {
-  width: 90vw;
+  width: 100vw;
+  height: auto;
   padding: 15px;
 }
 .container2 {
   background-color: rgb(63, 62, 62);
   background-size: cover;
   height: 19vw;
+ 
+
 }
 
 .acerca-de h2 {
@@ -242,6 +252,7 @@ span{
 .servicios{
   width: 100%;
   height: 160px;
+  margin-bottom: -4px;
 }
 form {
   display: flex;
@@ -328,9 +339,12 @@ form button:hover {
 }
 img{
   width: 100%;
-  height: 210px; 
-  margin: 10px 0px;
+  height: 230px; 
+  /* margin: 0px 0px; */
 
+}
+.galeria img{
+  padding: 10px;
 }
 
 .card-body{
@@ -359,7 +373,6 @@ img{
   border-radius: 4px;
   transition: all 400ms ease;
   align-items: center;
- margin-left: 83px;
  margin-bottom: 10px;
 }
 .boton:hover{
@@ -371,6 +384,7 @@ img{
 .contacto{
   width: 100%;
     height: 160px;
+    margin-bottom: -4px 
 }
 .contacto-container{
   background-color: rgb(63, 62, 62);
@@ -403,7 +417,7 @@ footer{
 .logo-footer{
   width: 10vw;
   height: auto;
-  margin-top: 5px;
+  margin: 10px;
 }
 i{
   padding: 5px;
@@ -421,6 +435,7 @@ i{
 .siguenos{
   margin-top: 5px;
   text-align: center;
+  margin-right: 5px;
 }
 .creado{
   text-align: center;
@@ -443,8 +458,8 @@ i{
   
 }
 .galeria img:hover{
-  box-shadow:5px 5px  rgba(153, 10, 122, 0.277);
-  transform:scale(1.2);
+  box-shadow:5px 5px  rgba(37, 2, 29, 0.277);
+  transform:scale(1.1);
   transition: 2s;
 }
 /* menu hamburguesa */
