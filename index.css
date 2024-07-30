@@ -159,7 +159,7 @@ main {
 }
 .nosotros {
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   margin-bottom: -4px;
 }
 .gráfico {
@@ -195,7 +195,7 @@ span{
 }
 .servicios{
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   margin-bottom: -4px;
 }
 form {
@@ -327,7 +327,7 @@ img{
 }
 .contacto{
   width: 100%;
-  height: 50vh;
+  height: 30vh;
   margin-bottom: 0px;
   display: flex;
   flex-wrap: nowrap;
