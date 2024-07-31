@@ -159,7 +159,11 @@ main {
 }
 .nosotros {
   width: 100%;
+<<<<<<< HEAD
   height: 30vh;
+=======
+  height: 25vh;
+>>>>>>> c7dd8848d4890a93788f2b749e88a51b5b027f57
   margin-bottom: -4px;
 }
 .gráfico {
@@ -195,7 +199,11 @@ span{
 }
 .servicios{
   width: 100%;
+<<<<<<< HEAD
   height: 35vh;
+=======
+  height: 25vh;
+>>>>>>> c7dd8848d4890a93788f2b749e88a51b5b027f57
   margin-bottom: -4px;
 }
 form {
@@ -327,7 +335,11 @@ img{
 }
 .contacto{
   width: 100%;
+<<<<<<< HEAD
   height: 30vh;
+=======
+  height: 25vh;
+>>>>>>> c7dd8848d4890a93788f2b749e88a51b5b027f57
   margin-bottom: 0px;
   display: flex;
   flex-wrap: nowrap;
@@ -452,7 +464,15 @@ i{
   .nav-responsive {
     display: none;
   }
+<<<<<<< HEAD
    
+=======
+   .header{position: sticky;
+    width: 100%;
+    z-index:1000;
+    top:0;
+    max-width:1000px;
+>>>>>>> c7dd8848d4890a93788f2b749e88a51b5b027f57
   }
   .link{padding: 5px;}
   
