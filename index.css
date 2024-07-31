@@ -455,7 +455,7 @@ i{
    .header{position: fixed;
     width: 100%;
     z-index:1000;
-    top:0;
+    top:0px;
     max-width:1000px;
   }
   .link{padding: 5px;}
