@@ -452,10 +452,10 @@ i{
   .nav-responsive {
     display: none;
   }
-   .header{position: fixed;
+   .header{position: sticky;
     width: 100%;
     z-index:1000;
-    top:0px;
+    top:0;
     max-width:1000px;
   }
   .link{padding: 5px;}
