@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: roboto + slab;
+  }
+  h5{
+    font-size: 15px;
+  }
+  a{text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 3px;
+    margin: 0px;}
+  ol,ul{
+    list-style: none;
+  }
+  .header { height: 80px;
+    background-color: rgb(201, 179, 228);
+  }
+  .media_queries {
+    display: none;
+  }
+  .navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 0px 20px 0px 20px;
+  }
+  .div-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu_hamburguesa{
+    display: none;
+  }
+  .menu_hamburguesa:checked + .ul_links{
+    height: 100vh; 
+  }
+  .nombre-logo {
+    color: rgb(208, 134, 44); 
+  }
+  .logo{ height:40px ;
+    width: auto;   
+  }
+  .contenedor-logo{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  i{
+    color: rgb(15, 14, 14);
+    cursor: pointer;
+    height: 4px;
+  }
+  nav ul li a:hover {
+    background: white;
+    color: rgb(142, 7, 142);
+    border-radius: 10px;
+    padding: 5px;
+  }
+  .ul_links {
+    width: 100%;
+    background-color: rgb(201, 179, 228);
+    background: linear-gradient(
+      180deg,
+      rgba(201, 179, 228, 1) 8%,
+      rgb(111, 79, 129) 68%
+    );;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    transition: all .3s;
+  }
+  .link {
+    font-size: 1em;
+    color:black;
+    font-weight: bold;
+  }
+  header {
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main {
+    background: rgb(201, 179, 228);
+    background: linear-gradient(
+      0deg,
+      rgba(201, 179, 228, 1) 4%,
+      rgb(230, 228, 231) 80%
+    );
+  }
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+}
+.card img{ width: 100%;
+    height: auto;
+}
+.card-content{
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+}
+input:valid { border-color: green;
+
+}
+
+input:invalid { border-color: red;
+
+}
+.card-content .title{
+    color: rgb(109, 42, 172);
+
+}
+button  { padding: 3px;
+margin: 2px;}
+input{ padding: 3px;
+    margin: 2px;}
+#card-form-container{
+    background-color: rgb(164, 195, 195);
+    border-radius: 10px;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+    
+    #cards{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    #cards-container{display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;}
+    #card-form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+    }
