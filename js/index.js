@@ -6,13 +6,13 @@ const description = document.getElementById("card-description").value;
 const imageUrl = document.getElementById("card-image").value || "https://picsum.photos/200";
 const bgColor = document.getElementById("card-bg-color").value;
 const borderColor= document.getElementById("card-border-color").value;
-const ganancia = document.getElementById("card-description").value * 1.16
+const ganancia = document.getElementById("card-description").value * 1.16;
 console.log({
     title: title,
     description: description,
     imageUrl: imageUrl,
     bgColor: bgColor
-    // borderColor : borderColor,
+    // borderColor: borderColor,
 });
 
 const cardContainer = document.getElementById("cards-container");
@@ -41,3 +41,4 @@ document.getElementById("card-form").reset();
 
 
 })
+// borar
