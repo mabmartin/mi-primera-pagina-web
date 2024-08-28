@@ -41,4 +41,3 @@ document.getElementById("card-form").reset();
 
 
 })
-// borar
