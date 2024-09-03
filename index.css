@@ -237,8 +237,9 @@ footer{
     
     .link{padding: 5px;}
   }
+  /* cambio de color en texto */
   #miTexto {
     color: black;
     transition: color 0.3s;}
-    
-   
+
+  

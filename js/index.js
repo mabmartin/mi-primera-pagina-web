@@ -1,5 +1,6 @@
 
-document.getElementById("card-form").addEventListener("submit", function (event){
+document.getElementById("card-form")
+addEventListener("submit", function (event){
 event.preventDefault();
 // traer valores del formulario
  const title = document.getElementById("card-title").value ;
@@ -46,15 +47,10 @@ const texto = document.getElementById('miTexto');
 texto.addEventListener('mouseover', () => {
     texto.style.color = 'violet';
     texto.style.fontSize = "40px";
+    texto.style.transition = "color 1s";
 });
 texto.addEventListener('mouseout', () => {
     texto.style.color = 'black';
     texto.style.fontSize = "";
 });      
-const miSpan = document.getElementById('miSpan');
 
-// Añade un manejador de eventos para el clic
-miSpan.addEventListener('click', function() {
-    // Cambia el color del texto cuando se hace clic
-    this.style.color = 'red';
-});
