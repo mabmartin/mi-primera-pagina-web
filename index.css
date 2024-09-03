@@ -237,3 +237,8 @@ footer{
     
     .link{padding: 5px;}
   }
+  #miTexto {
+    color: black;
+    transition: color 0.3s;}
+    
+   

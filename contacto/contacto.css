@@ -123,10 +123,12 @@
       flex-wrap: nowrap;
       justify-content: center;
       align-items: center;
+      transition: color 0.3s;
   }
   .contacto-container h2{
     text-align: center;
     padding: 22px;
+
   }
   .formulario{
     display: flex;
@@ -261,3 +263,6 @@ footer{
   }
   
   
+  #miTexto {
+    color: black;
+    transition: color 0.3s;}

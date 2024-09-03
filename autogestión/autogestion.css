@@ -192,6 +192,7 @@ input {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  transition: color 0.3s;
 }
 .contacto-container h2 {
   text-align: center;
@@ -275,3 +276,7 @@ i {
     padding: 5px;
   }
 }
+
+#miTexto {
+  color: black;
+  transition: color 0.3s;}

@@ -1,3 +1,4 @@
+
 document.getElementById("card-form").addEventListener("submit", function (event){
 event.preventDefault();
 // traer valores del formulario
@@ -11,8 +12,8 @@ console.log({
     title: title,
     description: description,
     imageUrl: imageUrl,
-    bgColor: bgColor
-    // borderColor: borderColor,
+    bgColor: bgColor,
+    borderColor: borderColor,
 });
 
 const cardContainer = document.getElementById("cards-container");
@@ -31,8 +32,7 @@ newCard.innerHTML = `
        <p> GANANCIA MENSUAL:</p>
        <p> ${ganancia}u$d</p>
     
-   </div>
-          
+   </div>        
 `;
 
 cardContainer.appendChild(newCard);
@@ -41,3 +41,20 @@ document.getElementById("card-form").reset();
 
 
 })
+
+const texto = document.getElementById('miTexto');
+texto.addEventListener('mouseover', () => {
+    texto.style.color = 'violet';
+    texto.style.fontSize = "40px";
+});
+texto.addEventListener('mouseout', () => {
+    texto.style.color = 'black';
+    texto.style.fontSize = "";
+});      
+const miSpan = document.getElementById('miSpan');
+
+// Añade un manejador de eventos para el clic
+miSpan.addEventListener('click', function() {
+    // Cambia el color del texto cuando se hace clic
+    this.style.color = 'red';
+});
